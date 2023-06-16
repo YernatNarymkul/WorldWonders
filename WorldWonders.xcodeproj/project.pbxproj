@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		236A26ED2A2EF2C700998FE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236A26EC2A2EF2C700998FE0 /* AppDelegate.swift */; };
+		236A26EF2A2EF2C700998FE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236A26EE2A2EF2C700998FE0 /* SceneDelegate.swift */; };
+		236A26F12A2EF2C700998FE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236A26F02A2EF2C700998FE0 /* ViewController.swift */; };
+		236A26F42A2EF2C700998FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236A26F22A2EF2C700998FE0 /* Main.storyboard */; };
+		236A26F62A2EF2C800998FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236A26F52A2EF2C800998FE0 /* Assets.xcassets */; };
+		236A26F92A2EF2C800998FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236A26F72A2EF2C800998FE0 /* LaunchScreen.storyboard */; };
+		236A27042A2EF2C800998FE0 /* WorldWondersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236A27032A2EF2C800998FE0 /* WorldWondersTests.swift */; };
+		236A270E2A2EF2C800998FE0 /* WorldWondersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236A270D2A2EF2C800998FE0 /* WorldWondersUITests.swift */; };
+		236A27102A2EF2C800998FE0 /* WorldWondersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236A270F2A2EF2C800998FE0 /* WorldWondersUITestsLaunchTests.swift */; };
+		2373FAF62A2EFD9E00180467 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373FAF52A2EFD9E00180467 /* TableViewController.swift */; };
+		2373FAFC2A2EFEB000180467 /* WonderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373FAFB2A2EFEB000180467 /* WonderTableViewCell.swift */; };
+		2373FAFE2A2F010B00180467 /* WorldWonder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373FAFD2A2F010B00180467 /* WorldWonder.swift */; };
+		4FCD6DB1EA1628B95FF10EF7 /* Pods_WorldWondersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F689783DF73DF45959C5EEA /* Pods_WorldWondersTests.framework */; };
+		998E4F3393DC0B9526F9D574 /* Pods_WorldWonders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB57B47176BAA7EA01BD2514 /* Pods_WorldWonders.framework */; };
+		A1C1DBC5A0AA57D04E427F3B /* Pods_WorldWonders_WorldWondersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA24509EDD067E8F772F73EA /* Pods_WorldWonders_WorldWondersUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		236A27002A2EF2C800998FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 236A26E12A2EF2C700998FE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 236A26E82A2EF2C700998FE0;
+			remoteInfo = WorldWonders;
+		};
+		236A270A2A2EF2C800998FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 236A26E12A2EF2C700998FE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 236A26E82A2EF2C700998FE0;
+			remoteInfo = WorldWonders;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06C0DB10944DC2E4FB49EBA3 /* Pods-WorldWonders-WorldWondersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldWonders-WorldWondersUITests.release.xcconfig"; path = "Target Support Files/Pods-WorldWonders-WorldWondersUITests/Pods-WorldWonders-WorldWondersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1139DBEA2610D746D0CCAAC4 /* Pods-WorldWondersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldWondersTests.debug.xcconfig"; path = "Target Support Files/Pods-WorldWondersTests/Pods-WorldWondersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		236A26E92A2EF2C700998FE0 /* WorldWonders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldWonders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		236A26EC2A2EF2C700998FE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		236A26EE2A2EF2C700998FE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		236A26F02A2EF2C700998FE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		236A26F32A2EF2C700998FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		236A26F52A2EF2C800998FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		236A26F82A2EF2C800998FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		236A26FA2A2EF2C800998FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		236A26FF2A2EF2C800998FE0 /* WorldWondersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldWondersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		236A27032A2EF2C800998FE0 /* WorldWondersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldWondersTests.swift; sourceTree = "<group>"; };
+		236A27092A2EF2C800998FE0 /* WorldWondersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldWondersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		236A270D2A2EF2C800998FE0 /* WorldWondersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldWondersUITests.swift; sourceTree = "<group>"; };
+		236A270F2A2EF2C800998FE0 /* WorldWondersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldWondersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2373FAF52A2EFD9E00180467 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2373FAFB2A2EFEB000180467 /* WonderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonderTableViewCell.swift; sourceTree = "<group>"; };
+		2373FAFD2A2F010B00180467 /* WorldWonder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldWonder.swift; sourceTree = "<group>"; };
+		33AEDD9F957936D2A7892F76 /* Pods-WorldWonders-WorldWondersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldWonders-WorldWondersUITests.debug.xcconfig"; path = "Target Support Files/Pods-WorldWonders-WorldWondersUITests/Pods-WorldWonders-WorldWondersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F0B4303C456522CDA279AD6 /* Pods-WorldWondersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldWondersTests.release.xcconfig"; path = "Target Support Files/Pods-WorldWondersTests/Pods-WorldWondersTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F689783DF73DF45959C5EEA /* Pods_WorldWondersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldWondersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB57B47176BAA7EA01BD2514 /* Pods_WorldWonders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldWonders.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43D92C83C5DD5F3A49620D3 /* Pods-WorldWonders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldWonders.release.xcconfig"; path = "Target Support Files/Pods-WorldWonders/Pods-WorldWonders.release.xcconfig"; sourceTree = "<group>"; };
+		EA24509EDD067E8F772F73EA /* Pods_WorldWonders_WorldWondersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldWonders_WorldWondersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54F3E5CF7582D544C945B4D /* Pods-WorldWonders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldWonders.debug.xcconfig"; path = "Target Support Files/Pods-WorldWonders/Pods-WorldWonders.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		236A26E62A2EF2C700998FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998E4F3393DC0B9526F9D574 /* Pods_WorldWonders.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		236A26FC2A2EF2C800998FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FCD6DB1EA1628B95FF10EF7 /* Pods_WorldWondersTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		236A27062A2EF2C800998FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C1DBC5A0AA57D04E427F3B /* Pods_WorldWonders_WorldWondersUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		236A26E02A2EF2C700998FE0 = {
+			isa = PBXGroup;
+			children = (
+				236A26EB2A2EF2C700998FE0 /* WorldWonders */,
+				236A27022A2EF2C800998FE0 /* WorldWondersTests */,
+				236A270C2A2EF2C800998FE0 /* WorldWondersUITests */,
+				236A26EA2A2EF2C700998FE0 /* Products */,
+				8DFBE4646F7B4B54984B589E /* Pods */,
+				74C1088CB33ED130F0A85D5B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		236A26EA2A2EF2C700998FE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				236A26E92A2EF2C700998FE0 /* WorldWonders.app */,
+				236A26FF2A2EF2C800998FE0 /* WorldWondersTests.xctest */,
+				236A27092A2EF2C800998FE0 /* WorldWondersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		236A26EB2A2EF2C700998FE0 /* WorldWonders */ = {
+			isa = PBXGroup;
+			children = (
+				236A26EC2A2EF2C700998FE0 /* AppDelegate.swift */,
+				236A26EE2A2EF2C700998FE0 /* SceneDelegate.swift */,
+				236A26F02A2EF2C700998FE0 /* ViewController.swift */,
+				2373FAF52A2EFD9E00180467 /* TableViewController.swift */,
+				2373FAFB2A2EFEB000180467 /* WonderTableViewCell.swift */,
+				2373FAFD2A2F010B00180467 /* WorldWonder.swift */,
+				236A26F22A2EF2C700998FE0 /* Main.storyboard */,
+				236A26F52A2EF2C800998FE0 /* Assets.xcassets */,
+				236A26F72A2EF2C800998FE0 /* LaunchScreen.storyboard */,
+				236A26FA2A2EF2C800998FE0 /* Info.plist */,
+			);
+			path = WorldWonders;
+			sourceTree = "<group>";
+		};
+		236A27022A2EF2C800998FE0 /* WorldWondersTests */ = {
+			isa = PBXGroup;
+			children = (
+				236A27032A2EF2C800998FE0 /* WorldWondersTests.swift */,
+			);
+			path = WorldWondersTests;
+			sourceTree = "<group>";
+		};
+		236A270C2A2EF2C800998FE0 /* WorldWondersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				236A270D2A2EF2C800998FE0 /* WorldWondersUITests.swift */,
+				236A270F2A2EF2C800998FE0 /* WorldWondersUITestsLaunchTests.swift */,
+			);
+			path = WorldWondersUITests;
+			sourceTree = "<group>";
+		};
+		74C1088CB33ED130F0A85D5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB57B47176BAA7EA01BD2514 /* Pods_WorldWonders.framework */,
+				EA24509EDD067E8F772F73EA /* Pods_WorldWonders_WorldWondersUITests.framework */,
+				7F689783DF73DF45959C5EEA /* Pods_WorldWondersTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DFBE4646F7B4B54984B589E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F54F3E5CF7582D544C945B4D /* Pods-WorldWonders.debug.xcconfig */,
+				D43D92C83C5DD5F3A49620D3 /* Pods-WorldWonders.release.xcconfig */,
+				33AEDD9F957936D2A7892F76 /* Pods-WorldWonders-WorldWondersUITests.debug.xcconfig */,
+				06C0DB10944DC2E4FB49EBA3 /* Pods-WorldWonders-WorldWondersUITests.release.xcconfig */,
+				1139DBEA2610D746D0CCAAC4 /* Pods-WorldWondersTests.debug.xcconfig */,
+				5F0B4303C456522CDA279AD6 /* Pods-WorldWondersTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		236A26E82A2EF2C700998FE0 /* WorldWonders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 236A27132A2EF2C800998FE0 /* Build configuration list for PBXNativeTarget "WorldWonders" */;
+			buildPhases = (
+				1A4AEE717E2F0E633ACF8641 /* [CP] Check Pods Manifest.lock */,
+				236A26E52A2EF2C700998FE0 /* Sources */,
+				236A26E62A2EF2C700998FE0 /* Frameworks */,
+				236A26E72A2EF2C700998FE0 /* Resources */,
+				A4BB73E56A683578F1695418 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldWonders;
+			productName = WorldWonders;
+			productReference = 236A26E92A2EF2C700998FE0 /* WorldWonders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		236A26FE2A2EF2C800998FE0 /* WorldWondersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 236A27162A2EF2C800998FE0 /* Build configuration list for PBXNativeTarget "WorldWondersTests" */;
+			buildPhases = (
+				DD2A44055847520B0349971C /* [CP] Check Pods Manifest.lock */,
+				236A26FB2A2EF2C800998FE0 /* Sources */,
+				236A26FC2A2EF2C800998FE0 /* Frameworks */,
+				236A26FD2A2EF2C800998FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				236A27012A2EF2C800998FE0 /* PBXTargetDependency */,
+			);
+			name = WorldWondersTests;
+			productName = WorldWondersTests;
+			productReference = 236A26FF2A2EF2C800998FE0 /* WorldWondersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		236A27082A2EF2C800998FE0 /* WorldWondersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 236A27192A2EF2C800998FE0 /* Build configuration list for PBXNativeTarget "WorldWondersUITests" */;
+			buildPhases = (
+				5667ED457B56C850EA0BCC6F /* [CP] Check Pods Manifest.lock */,
+				236A27052A2EF2C800998FE0 /* Sources */,
+				236A27062A2EF2C800998FE0 /* Frameworks */,
+				236A27072A2EF2C800998FE0 /* Resources */,
+				44B8EE5653EC8E14118EF2C7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				236A270B2A2EF2C800998FE0 /* PBXTargetDependency */,
+			);
+			name = WorldWondersUITests;
+			productName = WorldWondersUITests;
+			productReference = 236A27092A2EF2C800998FE0 /* WorldWondersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		236A26E12A2EF2C700998FE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					236A26E82A2EF2C700998FE0 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					236A26FE2A2EF2C800998FE0 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 236A26E82A2EF2C700998FE0;
+					};
+					236A27082A2EF2C800998FE0 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 236A26E82A2EF2C700998FE0;
+					};
+				};
+			};
+			buildConfigurationList = 236A26E42A2EF2C700998FE0 /* Build configuration list for PBXProject "WorldWonders" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 236A26E02A2EF2C700998FE0;
+			productRefGroup = 236A26EA2A2EF2C700998FE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				236A26E82A2EF2C700998FE0 /* WorldWonders */,
+				236A26FE2A2EF2C800998FE0 /* WorldWondersTests */,
+				236A27082A2EF2C800998FE0 /* WorldWondersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		236A26E72A2EF2C700998FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236A26F92A2EF2C800998FE0 /* LaunchScreen.storyboard in Resources */,
+				236A26F62A2EF2C800998FE0 /* Assets.xcassets in Resources */,
+				236A26F42A2EF2C700998FE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		236A26FD2A2EF2C800998FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		236A27072A2EF2C800998FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A4AEE717E2F0E633ACF8641 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorldWonders-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44B8EE5653EC8E14118EF2C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldWonders-WorldWondersUITests/Pods-WorldWonders-WorldWondersUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldWonders-WorldWondersUITests/Pods-WorldWonders-WorldWondersUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorldWonders-WorldWondersUITests/Pods-WorldWonders-WorldWondersUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5667ED457B56C850EA0BCC6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorldWonders-WorldWondersUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4BB73E56A683578F1695418 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldWonders/Pods-WorldWonders-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldWonders/Pods-WorldWonders-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorldWonders/Pods-WorldWonders-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD2A44055847520B0349971C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorldWondersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		236A26E52A2EF2C700998FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236A26F12A2EF2C700998FE0 /* ViewController.swift in Sources */,
+				236A26ED2A2EF2C700998FE0 /* AppDelegate.swift in Sources */,
+				236A26EF2A2EF2C700998FE0 /* SceneDelegate.swift in Sources */,
+				2373FAFC2A2EFEB000180467 /* WonderTableViewCell.swift in Sources */,
+				2373FAF62A2EFD9E00180467 /* TableViewController.swift in Sources */,
+				2373FAFE2A2F010B00180467 /* WorldWonder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		236A26FB2A2EF2C800998FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236A27042A2EF2C800998FE0 /* WorldWondersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		236A27052A2EF2C800998FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236A27102A2EF2C800998FE0 /* WorldWondersUITestsLaunchTests.swift in Sources */,
+				236A270E2A2EF2C800998FE0 /* WorldWondersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		236A27012A2EF2C800998FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 236A26E82A2EF2C700998FE0 /* WorldWonders */;
+			targetProxy = 236A27002A2EF2C800998FE0 /* PBXContainerItemProxy */;
+		};
+		236A270B2A2EF2C800998FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 236A26E82A2EF2C700998FE0 /* WorldWonders */;
+			targetProxy = 236A270A2A2EF2C800998FE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		236A26F22A2EF2C700998FE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				236A26F32A2EF2C700998FE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		236A26F72A2EF2C800998FE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				236A26F82A2EF2C800998FE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		236A27112A2EF2C800998FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		236A27122A2EF2C800998FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		236A27142A2EF2C800998FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54F3E5CF7582D544C945B4D /* Pods-WorldWonders.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorldWonders/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WorldWonders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		236A27152A2EF2C800998FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43D92C83C5DD5F3A49620D3 /* Pods-WorldWonders.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorldWonders/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WorldWonders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		236A27172A2EF2C800998FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1139DBEA2610D746D0CCAAC4 /* Pods-WorldWondersTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WorldWondersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldWonders.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorldWonders";
+			};
+			name = Debug;
+		};
+		236A27182A2EF2C800998FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F0B4303C456522CDA279AD6 /* Pods-WorldWondersTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WorldWondersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldWonders.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorldWonders";
+			};
+			name = Release;
+		};
+		236A271A2A2EF2C800998FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33AEDD9F957936D2A7892F76 /* Pods-WorldWonders-WorldWondersUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WorldWondersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorldWonders;
+			};
+			name = Debug;
+		};
+		236A271B2A2EF2C800998FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C0DB10944DC2E4FB49EBA3 /* Pods-WorldWonders-WorldWondersUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WorldWondersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorldWonders;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		236A26E42A2EF2C700998FE0 /* Build configuration list for PBXProject "WorldWonders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236A27112A2EF2C800998FE0 /* Debug */,
+				236A27122A2EF2C800998FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		236A27132A2EF2C800998FE0 /* Build configuration list for PBXNativeTarget "WorldWonders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236A27142A2EF2C800998FE0 /* Debug */,
+				236A27152A2EF2C800998FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		236A27162A2EF2C800998FE0 /* Build configuration list for PBXNativeTarget "WorldWondersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236A27172A2EF2C800998FE0 /* Debug */,
+				236A27182A2EF2C800998FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		236A27192A2EF2C800998FE0 /* Build configuration list for PBXNativeTarget "WorldWondersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236A271A2A2EF2C800998FE0 /* Debug */,
+				236A271B2A2EF2C800998FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 236A26E12A2EF2C700998FE0 /* Project object */;
+}
